@@ -1,0 +1,182 @@
+18
+alarms
+4
+alarm beep.mp3
+alarm ring.mp3
+buzzer.mp3
+car alarm.mp3
+babies
+4
+baby rattle.mp3
+crying.mp3
+happy yelling.mp3
+laughing.mp3
+birds
+10
+cardinal.mp3
+crow.mp3
+geese.mp3
+great horned owl.mp3
+gull.mp3
+hawk screech.mp3
+loon.mp3
+parrot yell.mp3
+pidgeon.mp3
+woodpecker pecking.mp3
+cartoon sounds
+10
+boing.mp3
+buzz.mp3
+cartoon growl.mp3
+charge.mp3
+crash.mp3
+explosion.mp3
+geranimo.mp3
+ricochet.mp3
+silly bone.mp3
+slide up.mp3
+characters
+15
+bugs bunny.mp3
+daffy duck.mp3
+elmer fudd.mp3
+foghorn leghorn.mp3
+homer doh.mp3
+homer woohoo.mp3
+krusty the clown.mp3
+Pepe Le Pew.mp3
+road runner.mp3
+speedy gonzales.mp3
+sylvester.mp3
+thats all folks.mp3
+looney tunes theme.mp3
+tweety.mp3
+yosemite sam.mp3
+crowds
+4
+applause.mp3
+booing.mp3
+chatting.mp3
+cheering.mp3
+farm animals
+17
+chicken squawk.mp3
+cow moo 1.mp3
+cow moo 2.mp3
+donkey.mp3
+goat.mp3
+horse gallop.mp3
+horse neigh.mp3
+horse snort.mp3
+horse stampede.mp3
+horse trot.mp3
+horse whinnie.mp3
+lamb.mp3
+pig oink.mp3
+rat squeaks.mp3
+rooster crow.mp3
+sheep baa 1.mp3
+sheep baa 2.mp3
+future sounds
+3
+beep.mp3
+computer.mp3
+echo.mp3
+gross sounds
+3
+burp.mp3
+long fart and stinger.mp3
+medium fart.mp3
+house animals
+12
+cat meow 1.mp3
+cat meow 2.mp3
+cat meow 3.mp3
+cat purr.mp3
+cat scream.mp3
+cat screech.mp3
+cat yell.mp3
+dog growl.mp3
+dog panting.mp3
+dog yelp.mp3
+small dog bark.mp3
+big dog bark.mp3
+house noises
+11
+blender.mp3
+can pop top.mp3
+clock chiming.mp3
+clock ticking.mp3
+cuckoo clock.mp3
+door creaking.mp3
+pouring drink.mp3
+footsteps.mp3
+heels.mp3
+knocking.mp3
+running.mp3
+music
+10
+baroque theme.mp3
+drama.mp3
+funk transition.mp3
+jazz ending.mp3
+jazz intro.mp3
+medieval theme.mp3
+surf ending.mp3
+surf riff.mp3
+swing ending.mp3
+william tell.mp3
+my sounds
+0
+nature
+5
+forest night.mp3
+lake morning.mp3
+stream.mp3
+waves.mp3
+wind.mp3
+people
+12
+female laugh.mp3
+funny female laugh.mp3
+girl laugh.mp3
+male laugh.mp3
+funny male laugh.mp3
+boy laugh.mp3
+kiss.mp3
+scream.mp3
+slow laugh.mp3
+sneeze.mp3
+blowing nose.mp3
+cough.mp3
+vehicles
+6
+car horn.mp3
+car accelerate.mp3
+car engine rev.mp3
+car passby.mp3
+car skid.mp3
+train whistle.mp3
+weather
+2
+rain.mp3
+thunder.mp3
+wild animals
+17
+bear growl.mp3
+bear grumble.mp3
+bull hooves away.mp3
+bull hooves in and stops.mp3
+cougar growl.mp3
+elephant trumpet 1.mp3
+elephant trumpet 2.mp3
+hyena laugh.mp3
+lion growl.mp3
+lion roar 1.mp3
+lion roar 2.mp3
+lion scream 2.mp3
+lion scream.mp3
+lion.mp3
+lion2.mp3
+wolf howl.mp3
+wolf pack.mp3

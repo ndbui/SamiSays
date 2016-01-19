@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Story Mode</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdn.webrtc-experiment.com/MediaStreamRecorder.js"> </script>
+  
+  <script src="soundManager/script/soundmanager2.js"></script>
+  <script src="SamiSays_StoryModeControls.js"></script> 
+   
+
+  <style>
+  .carousel-indicators li { visibility: hidden; }
+
+  .item{   
+    text-align: center;
+    border: #cdcdcd medium solid;
+    /*border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;*/     
+    background-color: #fff;
+  }
+  .selected{
+    background-color:yellow;
+    border: #000000 medium solid;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+
+  }
+  .carousel-selected{
+    text-align: center;
+    border: yellow medium solid;
+    /*border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;*/     
+    background-color: #fff;
+  }
+
+  .NaviSelected{   
+    color: #444 !important;
+    background-color: #fff;
+    
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+  }
+
+  .move_selected{
+    background-color:red;
+    border: #000000 medium solid;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+  }
+
+   
+  .nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .nav li {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+   
+  @media screen and (min-width: 600px) {
+    .nav li {
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+    }
+   
+    /* Option 1 - Display Inline */
+    .nav li {
+      display: inline-block;
+      margin-right: -4px;
+    }
+  }
+  
+  
+
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+
+  <h1 class=text-center>
+  	<div class="jumbotron">
+	  <h1>Sami Says</h1> 
+	  <p>Sami Says is a web recorder app that allows the visually impaired to create stories for enjoyment and education.</p> 
+    </div>
+  </h1>
+  <div class="nav">
+    <ul id="NaviBar">
+      <li >Make Sound</li>
+      <li>Add Sound</li>
+      <li>Playback</li>
+      <li>Edit</li>
+      <li>Main Menu</li>
+    </ul>
+  </div>
+<br>
+
+
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="false">
+      <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+       <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+                <h2 class=text-center>Hold down the spacebar to start recording sound segments for your story!</h2>
+                <p class=text-center>
+                  <br><br><br>
+                  <img id="is_recording" src="Images/Record_Off.png">
+                  <br><br><br>
+                </p>
+            </div>
+            <div class="item">
+                <h2 class=text-center>Sound Library</h2>
+                    <br><br><br>
+                    <ol class='list-inline' id="soundLibrary"></ol>
+                    <br><br><br>
+            </div>
+            <div class="item">    
+                <h2 class=text-center>Editing Mode</h2>
+                <p class=text-center>
+                  <br><br><br>
+                  <ol class='list-inline' id="soundList"></ol>
+                  <br><br><br>
+                </p>                  
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+</script>
+
+
+</body>
+
+
+</html>
+
